@@ -163,7 +163,89 @@ document.addEventListener('DOMContentLoaded', () => {
                 { text: 'Foram vestidos de Pokemons', correct: false },
                 { text: 'Eles não aceitaram o grammy', correct: false }
             ]
+        },
+        {
+            question: 'Qual o nome da cônjuge de Josh?',
+            answers: [
+                { text: 'Debby Dun', correct: false },
+                { text: 'Jenna', correct: false },
+                { text: 'Ariana Pequena', correct: false },
+                { text: 'harley Wiliams', correct: false },
+                { text: 'Debby Ryan', correct: true }
+            ]
+        },
+        {
+            question: 'Qual o Nome completo deles?',
+            answers: [
+                { text: 'Tyler Robert Joseph e Joshua Willian Dun', correct: true },
+                { text: 'Tyler Joseph Robert e Joshua Dun', correct: false },
+                { text: 'Tyler Joseph e Josh Dun', correct: false },
+                { text: 'Tyler Robert Joseph e Joshua Dun Willian', correct: false }
+                
+            ]
+        },
+        
+        {
+            question: 'Quais são as faixas favoritas de Tyler e Josh do álbum BlurryFace?',
+            answers: [
+                { text: 'Ride, Car Radio, Tear in my heart', correct: false },
+                { text: 'Tress, Polorize, Goner', correct: false },
+                { text: 'Goner, The Jodge, Lane Boy', correct: true },
+                { text: 'Lane Boy, Fairly Local, The Jodge', correct: false }
+                
+            ]
+        },
+        
+        {
+            question: 'Qual era a banda que o Josh tocava antes do Tøp',
+            answers: [
+                { text: 'House of Bettles', correct: false },
+                { text: 'House of Heroes', correct: true },
+                { text: 'House of Hanning', correct: false },
+                { text: 'House of Acress', correct: false }
+                
+            ]
+        },{
+            question: 'Quem é o BlurryFace?',
+            answers: [
+                { text: 'Os medos', correct: false },
+                { text: 'Os segredos sombrios', correct: false },
+                { text: 'As inseguranças', correct: true },
+                { text: 'A depressão', correct: false }
+                
+            ]
+        },
+        {
+            question: 'Qual das alternativas é uma cor de cabelo que Josh ainda não pintou?',
+            answers: [
+                { text: 'Amarelo', correct: false },
+                { text: 'Loiro Pivete', correct: true },
+                { text: 'Vermelho', correct: false },
+                { text: 'Verde', correct: false }
+                
+            ]
+        },
+        {
+            question: 'Em que data a banda teve sua estreia?',
+            answers: [
+                { text: '20 de dezembro de 2009', correct: false },
+                { text: '15 de agosto de 2009', correct: false },
+                { text: '29 de dezembro de 2009', correct: true },
+                { text: '7 de outubro de 2009', correct: false }
+                
+            ]
+        },
+        {
+            question: 'Qual a data foi lançado o album Vessel?',
+            answers: [
+                { text: '8 de janeiro de 2013', correct: true },
+                { text: '10 de janeiro 2013', correct: false },
+                { text: '17 de janeiro 2013', correct: false },
+                { text: '22 de janeiro de 2013', correct: false }
+                
+            ]
         }
+        
     ];
     restartButton.addEventListener('click', restartGame);
     yesButton.addEventListener('click', () => {
