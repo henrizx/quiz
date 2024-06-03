@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (shuffledQuestions.length > currentQuestionIndex + 1) {
             nextButton.classList.remove('hide');
         } else {
-            if (score >= 4) {
+            if (score >= 7) {
                 showPrize();
             } else {
                 startButton.innerText = 'Restart';
